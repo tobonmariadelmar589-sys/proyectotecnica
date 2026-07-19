@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terrario — Un ecosistema en un frasco</title>
+    <meta name="description" content="Terrarios cerrados y autosuficientes, listos en una caja. Sin regar, sin luz directa, sin complicaciones.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="page">
+
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a href="#inicio" class="site-header__logo">
+                <span class="site-header__logo-mark">◈</span>
+                <span class="site-header__logo-text">Terrario</span>
+            </a>
+
+            <nav class="site-header__nav" aria-label="Navegación principal">
+                <ul class="site-header__list">
+                    <li class="site-header__item site-header__item--active">
+                        <a href="#inicio" class="site-header__link">Inicio</a>
+                    </li>
+                    <li class="site-header__item">
+                        <a href="#especies" class="site-header__link">Especies</a>
+                    </li>
+                    <li class="site-header__item">
+                        <a href="#testimonios" class="site-header__link">Testimonios</a>
+                    </li>
+                    <li class="site-header__item">
+                        <a href="#precios" class="site-header__link">Precios</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a href="#contacto" class="site-header__cta">Arma tu frasco</a>
+
+            <button class="site-header__toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+                <span class="site-header__toggle-bar"></span>
+                <span class="site-header__toggle-bar"></span>
+                <span class="site-header__toggle-bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero__inner">
+            <div class="hero__copy">
+                <span class="hero__eyebrow">Colección permanente · Bogotá</span>
+                <h1 class="hero__title">Un ecosistema<br>en un frasco.</h1>
+                <p class="hero__subtitle">
+                    Cerramos un ciclo completo de agua, tierra y planta dentro de un envase de vidrio.
+                    Llega armado, sellado y listo. No se riega. No se poda. Solo se observa.
+                </p>
+                <div class="hero__actions">
+                    <a href="#precios" class="hero__cta hero__cta--primary">Ver planes</a>
+                    <a href="#especies" class="hero__cta hero__cta--ghost">Cómo funciona</a>
+                </div>
+            </div>
+
+            <div class="hero__specimen">
+                <div class="hero__jar" aria-hidden="true">
+                    <svg viewBox="0 0 220 260" class="hero__jar-svg">
+                        <ellipse cx="110" cy="235" rx="78" ry="14" class="hero__jar-shadow"/>
+                        <path d="M45 60 L45 210 Q45 230 65 230 L155 230 Q175 230 175 210 L175 60 Z" class="hero__jar-glass"/>
+                        <rect x="38" y="40" width="144" height="26" rx="10" class="hero__jar-lid"/>
+                        <path d="M55 190 Q110 205 165 190 L165 210 Q110 222 55 210 Z" class="hero__jar-soil"/>
+                        <path d="M75 190 C70 150 90 120 80 90" class="hero__jar-stem"/>
+                        <ellipse cx="78" cy="88" rx="14" ry="7" class="hero__jar-leaf"/>
+                        <ellipse cx="95" cy="105" rx="12" ry="6" class="hero__jar-leaf"/>
+                        <ellipse cx="68" cy="115" rx="11" ry="6" class="hero__jar-leaf"/>
+                    </svg>
+                </div>
+                <span class="hero__tag">
+                    <span class="hero__tag-code">FICHA N.º 07</span>
+                    <span class="hero__tag-name">Fittonia · Nervina</span>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-grid" id="especies">
+        <div class="feature-grid__inner">
+            <h2 class="feature-grid__title">Qué trae cada frasco</h2>
+            <p class="feature-grid__subtitle">Cuatro decisiones de diseño para que el ecosistema se sostenga solo.</p>
+
+            <div class="feature-grid__list">
+                <article class="feature-card feature-card--featured">
+                    <span class="feature-card__code">TERR-01</span>
+                    <h3 class="feature-card__title">Ecosistema cerrado</h3>
+                    <p class="feature-card__description">Un ciclo de agua autosuficiente dentro del frasco. Se riega solo, literalmente.</p>
+                </article>
+                <article class="feature-card">
+                    <span class="feature-card__code">TERR-02</span>
+                    <h3 class="feature-card__title">Kit de armado guiado</h3>
+                    <p class="feature-card__description">Sustrato, carbón activado, musgo vivo y la planta ya seleccionada para tu tipo de luz.</p>
+                </article>
+                <article class="feature-card">
+                    <span class="feature-card__code">TERR-03</span>
+                    <h3 class="feature-card__title">Ficha de cuidado</h3>
+                    <p class="feature-card__description">Cada envío llega con la ficha de la especie: origen, luz, humedad y frecuencia de revisión.</p>
+                </article>
+                <article class="feature-card">
+                    <span class="feature-card__code">TERR-04</span>
+                    <h3 class="feature-card__title">Soporte por foto</h3>
+                    <p class="feature-card__description">Envíanos una foto del frasco y un botánico te responde en menos de 24 horas.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section" id="testimonios">
+        <div class="testimonial-section__inner">
+            <h2 class="testimonial-section__title">Ocho meses después, siguen vivos</h2>
+
+            <div class="testimonial-section__list">
+                <figure class="testimonial testimonial--default">
+                    <blockquote class="testimonial__quote">Llevo ocho meses sin regarlo y el helecho sigue igual de verde que el primer día.</blockquote>
+                    <figcaption class="testimonial__author">
+                        <span class="testimonial__avatar">CR</span>
+                        <span class="testimonial__author-info">
+                            <span class="testimonial__name">Camila Restrepo</span>
+                            <span class="testimonial__role">Diseñadora, Medellín</span>
+                        </span>
+                    </figcaption>
+                </figure>
+
+                <figure class="testimonial testimonial--quote">
+                    <blockquote class="testimonial__quote">La ficha de la especie me enseñó más de botánica que cualquier video de internet.</blockquote>
+                    <figcaption class="testimonial__author">
+                        <span class="testimonial__avatar">JO</span>
+                        <span class="testimonial__author-info">
+                            <span class="testimonial__name">Julián Osorio</span>
+                            <span class="testimonial__role">Estudiante de arquitectura</span>
+                        </span>
+                    </figcaption>
+                </figure>
+
+                <figure class="testimonial testimonial--default">
+                    <blockquote class="testimonial__quote">Es el único ser vivo en mi apartamento que no depende de mi memoria.</blockquote>
+                    <figcaption class="testimonial__author">
+                        <span class="testimonial__avatar">MZ</span>
+                        <span class="testimonial__author-info">
+                            <span class="testimonial__name">Mariana Zuluaga</span>
+                            <span class="testimonial__role">Ingeniera de sistemas</span>
+                        </span>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="precios">
+        <div class="pricing__inner">
+            <h2 class="pricing__title">Planes</h2>
+            <p class="pricing__subtitle">Un frasco de una vez, o una especie nueva cada mes.</p>
+
+            <div class="pricing__list">
+                <article class="pricing-plan">
+                    <span class="pricing-plan__code">FICHA-N01</span>
+                    <h3 class="pricing-plan__name">Brote</h3>
+                    <p class="pricing-plan__price">
+                        <span class="pricing-plan__amount">$69.000</span>
+                        <span class="pricing-plan__period">pago único</span>
+                    </p>
+                    <ul class="pricing-plan__list">
+                        <li class="pricing-plan__item">Frasco de 500 ml</li>
+                        <li class="pricing-plan__item">1 especie de bajo mantenimiento</li>
+                        <li class="pricing-plan__item">Ficha de cuidado impresa</li>
+                    </ul>
+                    <a href="#contacto" class="pricing-plan__cta">Elegir Brote</a>
+                </article>
+
+                <article class="pricing-plan pricing-plan--featured">
+                    <span class="pricing-plan__badge">Más elegido</span>
+                    <span class="pricing-plan__code">FICHA-N02</span>
+                    <h3 class="pricing-plan__name">Vivero</h3>
+                    <p class="pricing-plan__price">
+                        <span class="pricing-plan__amount">$129.000</span>
+                        <span class="pricing-plan__period">pago único</span>
+                    </p>
+                    <ul class="pricing-plan__list">
+                        <li class="pricing-plan__item">Frasco de 1.2 L</li>
+                        <li class="pricing-plan__item">2 especies compatibles</li>
+                        <li class="pricing-plan__item">Ficha + soporte por foto</li>
+                        <li class="pricing-plan__item">Herramientas de armado</li>
+                    </ul>
+                    <a href="#contacto" class="pricing-plan__cta">Elegir Vivero</a>
+                </article>
+
+                <article class="pricing-plan">
+                    <span class="pricing-plan__code">FICHA-N03</span>
+                    <h3 class="pricing-plan__name">Bosque</h3>
+                    <p class="pricing-plan__price">
+                        <span class="pricing-plan__amount">$39.000</span>
+                        <span class="pricing-plan__period">mensual · suscripción</span>
+                    </p>
+                    <ul class="pricing-plan__list">
+                        <li class="pricing-plan__item">Una especie nueva cada mes</li>
+                        <li class="pricing-plan__item">Rotación curada por temporada</li>
+                        <li class="pricing-plan__item">Soporte prioritario</li>
+                        <li class="pricing-plan__item">Envío incluido</li>
+                    </ul>
+                    <a href="#contacto" class="pricing-plan__cta">Elegir Bosque</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contacto">
+        <div class="contact__inner">
+            <div class="contact__intro">
+                <h2 class="contact__title">Cuéntanos de tu espacio</h2>
+                <p class="contact__subtitle">
+                    Luz, tamaño y presupuesto. Te respondemos con la especie que mejor se adapta.
+                </p>
+            </div>
+
+            <form class="contact-form" id="contact-form" novalidate>
+                <div class="contact-form__field" data-field="name">
+                    <label class="contact-form__label" for="name">Nombre</label>
+                    <input class="contact-form__input" type="text" id="name" name="name" required>
+                    <span class="contact-form__error-message" hidden>Escribe tu nombre.</span>
+                </div>
+
+                <div class="contact-form__field" data-field="email">
+                    <label class="contact-form__label" for="email">Correo</label>
+                    <input class="contact-form__input" type="email" id="email" name="email" required>
+                    <span class="contact-form__error-message" hidden>Escribe un correo válido.</span>
+                </div>
+
+                <div class="contact-form__field" data-field="message">
+                    <label class="contact-form__label" for="message">Cuéntanos de tu espacio</label>
+                    <textarea class="contact-form__textarea" id="message" name="message" rows="4" required></textarea>
+                    <span class="contact-form__error-message" hidden>Cuéntanos un poco más.</span>
+                </div>
+
+                <button class="contact-form__submit" type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <div class="site-footer__brand">
+                <span class="site-footer__logo">◈ Terrario</span>
+                <p class="site-footer__tagline">Ecosistemas cerrados, armados a mano en Bogotá.</p>
+            </div>
+
+            <div class="site-footer__group">
+                <h4 class="site-footer__heading">Contacto</h4>
+                <ul class="site-footer__list">
+                    <li class="site-footer__item"><a href="mailto:hola@terrario.co" class="site-footer__link">hola@terrario.co</a></li>
+                    <li class="site-footer__item"><a href="tel:+576012345678" class="site-footer__link">+57 601 234 5678</a></li>
+                </ul>
+            </div>
+
+            <div class="site-footer__group">
+                <h4 class="site-footer__heading">Navegación</h4>
+                <ul class="site-footer__list">
+                    <li class="site-footer__item"><a href="#especies" class="site-footer__link">Especies</a></li>
+                    <li class="site-footer__item"><a href="#precios" class="site-footer__link">Precios</a></li>
+                    <li class="site-footer__item"><a href="#contacto" class="site-footer__link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="site-footer__group">
+                <h4 class="site-footer__heading">Síguenos</h4>
+                <ul class="site-footer__social">
+                    <li class="site-footer__item"><a href="#" class="site-footer__link">Instagram</a></li>
+                    <li class="site-footer__item"><a href="#" class="site-footer__link">TikTok</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="site-footer__bottom">
+            <p class="site-footer__copyright">© <span id="year"></span> Terrario. Proyecto académico — todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/terrario.js" defer></script>
+</body>
+</html>
